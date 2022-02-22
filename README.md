@@ -1,1 +1,10 @@
 # Flask_API_Test
+
+
+## Testing
+
+* run:
+
+```sh
+python test.py
+```
