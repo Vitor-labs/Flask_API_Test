@@ -8,3 +8,9 @@
 ```sh
 python test.py
 ```
+
+* expected:
+```sh
+"All tests passed"
+"No errors"
+```
