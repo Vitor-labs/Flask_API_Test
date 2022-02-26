@@ -91,10 +91,19 @@ def test_get_all():
 
 
 print("Testing...")
-test_get()
-test_put()
-test_patch()
-test_post()
-test_delete()
-test_get_all()
-print("Done!")
+try: 
+    test_get()
+    test_put()
+    test_patch()
+    test_post()
+    test_delete()
+    test_get_all()
+    print("All tests passed!")
+except AssertionError as e:
+    print("AssertionError:", e)
+except Exception as e:
+    print("Exception:", e)
+else:
+    print("No errors!")
+finally:
+    print("Done!")
